@@ -1,0 +1,299 @@
+shop {
+    font-family: Arial, Helvetica, Sans-serif;
+    background: url('Images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+}
+shop_name_heading{
+	font-size: 40px;
+    padding: 20px;
+	padding-top : 10px;
+	color: white;
+    position: relative;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	
+	
+}
+
+logo
+{
+	background: url('Images/logo.jpg');
+	height: 10px;
+	width: 90px;
+	position: relative;
+	top: 0px;
+	padding-top: 10%;
+	background-size: 100% auto;
+	display: block;
+	padding-bottom: -100px;
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: -6%;
+	margin-bottom: 40%;
+	margin-right: 10%;
+}
+
+
+* {
+    display: block;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+available_cars{
+        margin: 200px;
+		margin-top : 60px; 
+		
+		
+}
+
+model_name{
+    font-weight: 600;
+    font-size: 30px; 
+    letter-spacing: 2px;
+	
+	
+}
+brand_name,item_type{
+    font-weight: 600;
+    font-size: 20px; 
+    letter-spacing: 2px;
+	
+}
+
+brand_name, model_name, item_type{
+    text-align: center;
+	 
+}
+
+
+
+description{
+	display: list-item;
+	margin-left: -30%;
+	font-size: 12px;
+    padding: 10;
+	border: 2px solid white;
+    font-weight: 600;
+	text-align: center;
+	color: rbg(0,0,0);
+	opacity: 1;
+	background-color: #C9D1C8;
+	opacity: 0.6;
+	width: 400px;
+	height: 400px;
+	
+	 
+}
+
+
+item{  
+	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-bottom: 2px solid black;
+	border-bottom-width:5px;
+    margin-bottom: 30px;
+	display: block;
+}
+
+
+
+civic{
+	background: url('Images/civicr.jpg');
+	height: 600px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	padding-top: 50%;
+	background-size: 100% auto;
+	display: block;
+	padding-bottom: -10px;
+	background-repeat: no-repeat;
+	float: right;
+	
+	margin-right: -36.5%;
+	
+}
+
+volester{
+	background: url('Images/volester.jpg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display: block;
+	margin-top: -69%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+rover{
+	background: url('Images/rangeroversport.jpg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+cclass{
+	background: url('Images/c_.jpg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+kona{
+	background: url('Images/kona.jpeg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+i8{
+	background: url('Images/i8.jpg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+a35{
+	background: url('Images/A35.jpg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+caymen{
+	background: url('Images/caymen.jpg');
+	height: 590px;
+	width: 680px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+ecosport{
+	background: url('Images/ecosport.jpg');
+	height: 590px;
+	width: 660px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+polo{
+	background: url('Images/polo.jpg');
+	height: 590px;
+	width: 660px;
+	background-size: 100% auto;
+	position: relative;
+	top: 0px;
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: -17.5%;
+	margin-right: -20%;
+	float: right;
+	margin-right: -36.5%;
+	
+	
+}
+
+
+
+
+shop_description{
+  
+    background-color: rgb(60, 60, 60);
+    padding: 30px;
+    color: white;
+    position: relative;
+	display: list-item;
+    top: 20px;
+	text-align: center;
+	opacity: 0.8;
+}

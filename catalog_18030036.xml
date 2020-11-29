@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18030036.css" ?>
+
+
+<shop location="Naxal" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"  xs:noNamespaceSchemaLocation="catalog_18030036.xsd">
+	<shop_name_heading>Four Wheels</shop_name_heading> 
+	<logo> </logo>
+	
+	<available_cars total_cars="10">
+		
+		<item id="21">
+			<civic></civic>
+				<description> 
+					<model_name> Civic Type-R </model_name>
+					<brand_name brand_id="01"> Honda </brand_name>
+					<item_type type_id="01"> Sedan </item_type>
+					<item_number> 01 </item_number>
+					<mileage>Mileage : 9.5 kmpl </mileage>
+					<engine_capacity> Engine Capacity  :  1996 cc</engine_capacity>
+					<top_speed> Top Speed : 272 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : White </color>
+					<manufacturer>  Manufacturer : Honda Motor Company </manufacturer>
+					<dimension>Dimensions : 4557 mm length, 1877 mm width, 1434 mm height </dimension>
+					<quantity>Quantity : 2 </quantity>
+					<price>Price : Rs.85,00,000</price>
+				</description>
+		</item>
+		
+		
+		
+		<item id="22">
+			<volester></volester>
+				<description> 
+					<model_name> Volester </model_name>
+					<brand_name brand_id="01"> Hyundai </brand_name>
+					<item_type type_id="01"> Hatchback </item_type>
+					<item_number> 02 </item_number>
+					<mileage>Mileage : 16 kmpl </mileage>
+					<engine_capacity> Engine Capacity  :  1,591 cc</engine_capacity>
+					<top_speed> Top Speed : 250 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : Red </color>
+					<manufacturer>  Manufacturer : Hyundai Motor Companies </manufacturer>
+					<dimension>Dimensions : 4220 mm length, 1790 mm width, 1400 mm height and a wheelbase of 2650 mm </dimension>
+					<quantity>Quantity : 2 </quantity>
+					<price>Price : Rs.75,00,000</price>
+				</description>
+		</item>
+		
+		
+		<item id="23">
+			<rover></rover>
+				<description> 
+					<model_name> Range Rover Sport </model_name>
+					<brand_name brand_id="01"> Land Rover </brand_name>
+					<item_type type_id="01"> Mid-Size SUV </item_type>
+					<item_number> 03 </item_number>
+					<mileage>Mileage : 12.65 kmpl </mileage>
+					<engine_capacity> Engine Capacity  :  1996 cc</engine_capacity>
+					<top_speed> Top Speed : 261 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Hybrid  </car_type>
+					<color> Color : Black </color>
+					<manufacturer>  Manufacturer : Land Rover </manufacturer>
+					<dimension>Dimensions : 4879 mm length, 2220 mm width, 2923 mm wheelbase</dimension>
+					<quantity>Quantity : 2 </quantity>
+					<price>Price : Rs. 2.3 Crores</price>
+				</description>
+		</item>
+		
+		<item id="24">
+			<cclass></cclass>
+				<description> 
+					<model_name> Mercedes C-Class </model_name>
+					<brand_name brand_id="01"> Mercedes Benz </brand_name>
+					<item_type type_id="01">Sedan </item_type>
+					<item_number> 04 </item_number>
+					<mileage>Mileage : 14.49 kmpl </mileage>
+					<engine_capacity> Engine Capacity  :  3982 cc</engine_capacity>
+					<top_speed> Top Speed : 234 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : Royal Blue </color>
+					<manufacturer>  Manufacturer :  Mercedes Benz</manufacturer>
+					<dimension>Dimensions : 4686 mm length, 1810 mm width, 1442 mm height and a wheelbase of 2840 mm</dimension>
+					<quantity>Quantity : 2 </quantity>
+					<price>Price : Rs. 1.9 Crores</price>
+				</description>
+		</item>
+		
+		<item id="25">
+			<i8></i8>
+				<description> 
+					<model_name> i8 </model_name>
+					<brand_name brand_id="01"> BMW </brand_name>
+					<item_type type_id="01">Sedan </item_type>
+					<item_number> 05 </item_number>
+					<mileage>Range : 500 km/full Charge </mileage>
+					<engine_capacity> Battery Capacity  :  98 kW</engine_capacity>
+					<top_speed> Top Speed : 250 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Hybrid  </car_type>
+					<color> Color : Blue </color>
+					<manufacturer>  Manufacturer : Bayerische Motoren Werke AG</manufacturer>
+					<dimension>Dimensions : 4689 mm length, 1942 mm width, 1298 mm height and a wheelbase of 2800 mm </dimension>
+					<quantity>Quantity : 1 </quantity>
+					<price>Price : Rs. 68,00,00,000</price>
+				</description>
+		</item>
+		
+		<item id="26">
+			<a35></a35>
+				<description> 
+					<model_name> AMG A35 </model_name>
+					<brand_name brand_id="01"> Mercedes Benz </brand_name>
+					<item_type type_id="01"> Hatchback </item_type>
+					<item_number> 06 </item_number>
+					<mileage>Mileage: 15.5 kmpl </mileage>
+					<engine_capacity>Engine Capacity: 1,991 cc</engine_capacity>
+					<top_speed> Top Speed : 250 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : Grey </color>
+					<manufacturer>  Manufacturer : Mercedes Benz </manufacturer>
+					<dimension>Dimensions : 4436 mm length, 1992 mm width, 1405 mm height </dimension>
+					<quantity>Quantity : 1 </quantity>
+					<price>Price : Rs. 2.1 crore</price>
+				</description>
+		</item>
+		
+		<item id="27">
+			<caymen></caymen>
+				<description> 
+					<model_name> 718 Caymen </model_name>
+					<brand_name brand_id="01"> Porsche </brand_name>
+					<item_type type_id="01"> Sedan </item_type>
+					<item_number> 07 </item_number>
+					<mileage>Mileage: 14.4 kmpl </mileage>
+					<engine_capacity> Engine Capacity: 1,988 cc</engine_capacity>
+					<top_speed> Top Speed : 285 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : Red </color>
+					<manufacturer>  Manufacturer : Porsche AG </manufacturer>
+					<dimension>Dimensions : 4379 mm length, 1994 mm width, 1295 mm height and a wheelbase of 2475 mm </dimension>
+					<quantity>Quantity : 1 </quantity>
+					<price>Price : Rs.55,00,00,000</price>
+				</description>
+		</item>
+		
+		
+		<item id="28">
+			<kona></kona>
+				<description> 
+					<model_name> Kona </model_name>
+					<brand_name brand_id="01"> Hyundai </brand_name>
+					<item_type type_id="01"> SUV </item_type>
+					<item_number> 08 </item_number>
+					<mileage>Range : 415 km / full charge </mileage>
+					<engine_capacity> Battery Capacity  :  39.2kWh</engine_capacity>
+					<top_speed> Top Speed : 167 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Electic  </car_type>
+					<color> Color : Metallic Grey </color>
+					<manufacturer>  Manufacturer : Hyundai Motor Companies </manufacturer>
+					<dimension>Dimensions : 4180 mm length, 1800 mm width, 1570 mm height and a wheelbase of 2600 mm </dimension>
+					<quantity>Quantity : 1 </quantity>
+					<price>Price : Rs.55,00,000</price>
+				</description>
+		</item>
+		
+		
+		
+		
+		<item id="29">
+			<ecosport></ecosport>
+				<description> 
+					<model_name> Ecosport </model_name>
+					<brand_name brand_id="01"> Ford </brand_name>
+					<item_type type_id="01">SUV </item_type>
+					<item_number> 09 </item_number>
+					<mileage>Mileage : 14.49 kmpl </mileage>
+					<engine_capacity> Engine Capacity  :  1498 cc</engine_capacity>
+					<top_speed> Top Speed : 190 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : Cherry </color>
+					<manufacturer>  Manufacturer :  Ford Motor Company</manufacturer>
+					<dimension>Dimensions : 3998 mm length, 1765 mm width, 1647 mm height and a wheelbase of 2519 mm</dimension>
+					<quantity>Quantity : 2 </quantity>
+					<price>Price : Rs. 30,00,000</price>
+				</description>
+		</item>
+		
+		<item id="30">
+			<polo></polo>
+				<description> 
+					<model_name> Polo GTI </model_name>
+					<brand_name brand_id="01"> Volkswagen </brand_name>
+					<item_type type_id="01">Hatchback </item_type>
+					<item_number> 10 </item_number>
+					<mileage>Mileage : 20 kmpl </mileage>
+					<engine_capacity> Engine Capacity  :  1600 cc</engine_capacity>
+					<top_speed> Top Speed : 183 kmph </top_speed>
+					<car_type carType_ID="01">Car Type : Fuel  </car_type>
+					<color> Color : White </color>
+					<manufacturer>  Manufacturer :  Volkswagen</manufacturer>
+					<dimension>Dimensions : 3971 mm length, 1682 mm width, 1469 mm height and a wheelbase of 2469 mm </dimension>
+					<quantity>Quantity : 2 </quantity>
+					<price>Price : Rs. 58,00,000</price>
+				</description>
+		</item>
+	</available_cars>
+	
+	<!--    shop details -->
+    <shop_description>
+        <shop_name>Four Wheels</shop_name>
+        <address>Naxal,Kathmandu</address>
+        <number>9810162560</number>
+        <url>fourwheels.com</url>
+       
+    </shop_description>
+</shop>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="shop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="shop_name_heading" />
+                <xs:element ref="logo" />
+				<xs:element ref="available_cars" />
+				<xs:element ref="shop_description" />
+            </xs:sequence>
+             <xs:attribute name="location" type="xs:string" />
+            <xs:attribute name="size" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+	
+	<xs:element name="shop_name_heading" type="xs:string"></xs:element>
+    <xs:element name="logo" type="xs:string"></xs:element>
+               
+    
+    <xs:element name="available_cars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="item" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="total_cars" type="xs:integer" />
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:element name="item">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="civic" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="volester" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="rover" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="cclass" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="i8" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="a35" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="caymen" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="kona" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="ecosport" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+				<xs:element name="polo" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                <xs:element ref="description"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" />
+        </xs:complexType>
+    </xs:element>
+    
+   
+
+   
+    
+    
+    
+    <xs:element name="description">
+        <xs:complexType>
+            <xs:sequence>
+				<xs:element name="model_name" type="xs:string"></xs:element>
+				<xs:element ref="brand_name"/>
+				<xs:element ref="item_type"/>
+				<xs:element name="item_number" type="xs:integer"></xs:element>
+				<xs:element name="mileage" type="xs:string"></xs:element>
+				<xs:element name="engine_capacity" type="xs:string"></xs:element>
+				<xs:element name="top_speed" type="xs:string"></xs:element>
+                <xs:element ref="car_type"/>
+				<xs:element name="color" type="xs:string"></xs:element>
+				<xs:element name="manufacturer" type="xs:string"></xs:element>
+                <xs:element name="dimension" type="xs:string"></xs:element>
+                <xs:element name="quantity" type="xs:string"></xs:element>
+                <xs:element name="price" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+	
+	<xs:element name="brand_name">
+        <xs:complexType>
+            <xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="brand_id" type="xs:integer"/>
+				</xs:extension>
+			</xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+	
+	<xs:element name="item_type">
+        <xs:complexType>
+            <xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="type_id" type="xs:integer"/>
+				</xs:extension>
+			</xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+	
+	<xs:element name="car_type">
+        <xs:complexType>
+            <xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="carType_ID" type="xs:integer"/>
+				</xs:extension>
+			</xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="shop_description">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="shop_name" type="xs:string"></xs:element>
+                <xs:element name="address" type="xs:string"></xs:element>
+                <xs:element name="number" type="xs:integer"></xs:element>
+                <xs:element name="url" type="xs:string"></xs:element>
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
